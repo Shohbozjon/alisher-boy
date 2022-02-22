@@ -12,7 +12,10 @@ var S = Number(A+B+C);
 
 if (amount >= S){
   console.log("Oq yo'l, Alisher!");
-}else{
+}else if (amount < 0 ){
+  console.log("Aka qarzga ketmoqchimisiz?")
+}
+else{
   console.log("Alisher, ozgina sabr qilish bo'lar ekan.");
 }
 
